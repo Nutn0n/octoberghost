@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    font-smooth: auto;
+font-smooth: never;
+font-smooth: always;
+}
+
+body {
+    background-color:#000;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.hero {
+    margin-top:15%;
+    text-align: center;
+}
+
+.hero h3{
+    font-size:30px;
+    font-weight:100;
+}
+
+.logo {
+    background-image: url(asset/logo.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    display: inline-block;
+    width: 500px;
+    height: 180px;
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        width: 600px;
+        padding-bottom: 30px;
+    }
+    .hero h3 {
+        font-size: 40px;
+    }
+}
